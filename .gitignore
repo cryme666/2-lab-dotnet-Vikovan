@@ -16,13 +16,11 @@ bld/
 
 ## Visual Studio cache/options directory
 .vs/
-.vscode/
-
-## Visual Studio Code
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 ## User-specific files
 *.rsuser
@@ -30,25 +28,10 @@ bld/
 *.user
 *.userosscache
 *.sln.docstates
+*.code-workspace
 
 ## Mono auto generated files
 mono_crash.*
-
-## Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
 
 ## .NET Core
 project.lock.json
@@ -166,24 +149,6 @@ MigrationBackup/
 ## Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-## VS Code files
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-## User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-## Mono auto generated files
-mono_crash.*
-
 ## Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -193,9 +158,6 @@ Desktop.ini
 
 ## Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-## VS Code directories
-.vscode/
 
 ## Mac desktop service store files
 .DS_Store
@@ -241,4 +203,3 @@ local.settings.json
 
 ## Windows shortcuts
 *.lnk
-
